@@ -70,7 +70,7 @@ group = "tools.aqua"
 val z3Version = "4.13.3"
 val turnkeyVersion = "1"
 val x64LinuxSuffix = "-x64-glibc-2.35"
-val arm64LinuxSuffix = "-arm-glibc-2.34"
+val arm64LinuxSuffix = "-arm64-glibc-2.34"
 val x64OsxSuffix = "-x64-osx-13.7"
 
 version = if (turnkeyVersion.isNotBlank()) "$z3Version.$turnkeyVersion" else z3Version
